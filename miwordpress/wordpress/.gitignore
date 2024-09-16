@@ -1,0 +1,66 @@
+# Ignorar el archivo de configuración de WordPress (contiene información sensible de la base de datos)
+wp-config.php
+
+# Ignorar la carpeta de subidas (normalmente contiene archivos multimedia, que pueden ser pesados)
+wp-content/uploads/
+
+# Ignorar temas y plugins predeterminados de WordPress
+wp-content/themes/twenty*/
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# Ignorar cualquier otro tema o plugin no necesario (modifica según sea necesario)
+wp-content/themes/tema-innecesario/
+wp-content/plugins/plugin-innecesario/
+
+# Ignorar bases de datos y archivos de backup
+*.sql
+*.sqlite
+*.bak
+*.backup
+*.old
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar logs y archivos de depuración
+*.log
+debug.log
+error_log
+
+# Ignorar archivos de caché (dependiendo del plugin que uses, puedes modificar este patrón)
+wp-content/cache/
+wp-content/wflogs/
+wp-content/advanced-cache.php
+
+# Ignorar carpetas del gestor de dependencias Composer (si usas Composer para gestionar plugins o temas)
+vendor/
+
+# Ignorar dependencias de Node.js (si usas herramientas de compilación con Node.js)
+node_modules/
+
+# Ignorar herramientas de construcción como Gulp o Webpack (si usas para desarrollo)
+gulpfile.js
+package.json
+package-lock.json
+webpack.config.js
+
+
+*.sass-cache/
+*.scssc
+*.map
+
+
+*.tmp
+*.swp
+*.swo
+
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+
+*.ftpconfig
